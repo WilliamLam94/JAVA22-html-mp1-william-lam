@@ -5,11 +5,42 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Kontakt</title>
+		<link rel="stylesheet" href="../css/styles.css" />
 	</head>
 	<body>
-		<nav>
+		<nav class="navbar">
 			<a href="../index.html">Startsida</a>
 			<a href="../html/inspiration.html">Inspiration</a>
 		</nav>
+		<form action="submit">
+			<label for="firstname">First name</label>
+			<input
+				type="text"
+				name="firstname"
+				placeholder="Write your name"
+				id="firstname"
+			/>
+
+			<label for="lastname">Last name</label>
+			<input
+				type="text"
+				name="lastname"
+				placeholder="Write your last name"
+				id="lastname"
+			/>
+
+			<label for="phonenumber">Phone number</label>
+			<input
+				type="text"
+				name="phonenumber"
+				placeholder="Number"
+				id="phonenumber"
+			/>
+
+			<label for="message">What's on your mind</label>
+
+			<textarea name="message" cols="30" rows="10"></textarea>
+			<input type="submit" value="Submit" id="submitBtn" />
+		</form>
 	</body>
 </html>

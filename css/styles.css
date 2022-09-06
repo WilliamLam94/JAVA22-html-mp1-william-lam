@@ -1,0 +1,41 @@
+a {
+	margin: 0px 20px;
+	text-decoration: none;
+	color: springgreen;
+}
+
+h1 {
+	color: red;
+}
+h1 {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+	color: red;
+}
+h3 {
+	font-family: 'Courier New', Courier, monospace;
+}
+p {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover {
+	background-color: blue;
+}
+.navbar {
+	margin-top: 100px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+	justify-content: center;
+	margin-left: 50px;
+}
+
+label {
+	margin: 5px;
+}
