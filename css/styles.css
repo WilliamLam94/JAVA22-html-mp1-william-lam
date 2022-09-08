@@ -1,7 +1,7 @@
 a {
 	margin: 0px 20px;
 	text-decoration: none;
-	color: springgreen;
+	color: green;
 }
 
 h1 {
@@ -26,16 +26,4 @@ a:hover {
 }
 .navbar {
 	margin-top: 100px;
-}
-
-form {
-	display: flex;
-	flex-direction: column;
-	width: 30vw;
-	justify-content: center;
-	margin-left: 50px;
-}
-
-label {
-	margin: 5px;
 }
